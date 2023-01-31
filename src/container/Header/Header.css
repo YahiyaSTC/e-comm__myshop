@@ -1,0 +1,75 @@
+header {
+  background-color: rgb(6, 6, 75);
+  padding: 10px 0;
+  /* position: fixed;
+  width: 100%;
+  top: 0; */
+}
+
+header h1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 29px;
+  margin: 0;
+}
+
+header h1 span {
+  color: brown;
+}
+
+.header_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header  a,
+header a:hover,
+header a:active {
+    color: #fff;
+}
+
+header .icons  {
+    display: flex;
+    gap: 2rem;
+}
+header .icons  a{
+    position: relative;
+}
+
+header .icons a .icon_ {
+    position: absolute;
+    top: -10px;
+    right: -22px;
+    padding: 10px;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background-color: brown;
+    margin: 0;
+    display: flex;
+    align-items: flex-start !important;
+    /* padding: 0; */
+}
+
+header .icons a .icon_ span {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+
+header .list ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+/* header .list ul li {
+    margin: 0;
+    padding: 0;
+} */

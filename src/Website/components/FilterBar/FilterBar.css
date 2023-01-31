@@ -1,0 +1,19 @@
+.filterBar  {
+ padding: 5px 0;
+}
+.filterBar .productView {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filterBar .productView  .icon {
+    display: flex;
+    gap: 10px;
+}
+
+.filterBar .productView  .text p {
+    margin: 0;
+    font-weight: 700;
+    
+}

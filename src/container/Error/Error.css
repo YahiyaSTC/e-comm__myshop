@@ -1,0 +1,13 @@
+.errorPage {
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.errorPage h2 {
+    font-weight: 700;
+    font-size: 50px;
+}

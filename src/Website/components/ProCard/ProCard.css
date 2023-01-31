@@ -1,0 +1,11 @@
+.proCard {
+    margin-top: 30px;
+}
+.proCard .imgg img{
+    height: 230px;
+    overflow: hidden;
+}
+.proCard img{
+    width: 100%;
+    height: auto;
+}

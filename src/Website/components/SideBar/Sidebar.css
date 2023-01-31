@@ -1,0 +1,40 @@
+.sidebar .list {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .list li {
+  border-bottom: 3px solid #000;
+}
+
+.sidebar .list li a {
+  width: 100%;
+  padding: 5px 10px;
+  display: block;
+  color: #000;
+  transition: 0.1s all;
+}
+
+.sidebar .list li a.activee,
+.sidebar .list li a:hover {
+  border-left: 4px solid brown !important;
+}
+
+.sidebar .list li a:hover,
+.sidebar .list li a:active {
+  color: #000;
+}
+.sidebar .list li a i {
+  font-size: 12px;
+}
+
+.sidebar .list li a span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sidebar h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 6px 0;
+}

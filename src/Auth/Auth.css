@@ -1,0 +1,83 @@
+.auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+}
+
+.auth form {
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px #ddd;
+    overflow: hidden;
+    padding: 0 0 20px 0;
+}
+
+
+.auth form .alert {
+    background-color: #06064B;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 0;
+    
+}
+
+.auth form .form_group {
+    padding: 5px 20px;
+}
+
+.auth form .form_group .form-control {
+    border-radius: 50px;
+    background-color: #ddd;
+    color: #000;
+    font-size: 14px;
+    /* border: none; */
+}
+
+.auth form .form_group .form-control:focus {
+    box-shadow: none;
+    border-color: #06064B;
+}
+
+.auth form .form_label__forgot {
+    display: block ;    
+    text-align: end;
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.auth form .form_label__forgot a {
+    color: #06064B;
+}
+
+.auth form .btnn {
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.auth form .btnn button {
+    width: 100%;
+    border-radius: 50px;
+    background-color: #06064B;
+    border-color: #06064B;
+}
+
+.auth form .end_text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.auth form .form_label__account {
+    display: block ;    
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.auth form .end_text a{
+    color: #06064B;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
